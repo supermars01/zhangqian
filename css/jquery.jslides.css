@@ -1,0 +1,47 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, blockquote, pre, form, fieldset, table, th, td, span{padding:0;margin:0;}
+#full-screen-slider { width:100%; height:340px; margin:0 auto;position:relative; overflow:hidden;}
+#slides { display:block; width:1920px; height:340px; list-style:none;position:absolute; left:50%; top:0; z-index:1; margin:0px 0px 0px -960px; overflow:hidden;}
+#slides li { display:block;width:1920px; height:340px;list-style:none; float:left;}
+#slides li a { display:block;width:1920px; height:340px;text-indent:-9999px;float:left;}
+#slides li a img{ display:block;width:1920px; height:340px;text-indent:-9999px;float:left;}
+
+#pagination { display:block; list-style:none; width:300px;position:absolute; left:50%;bottom:31px; z-index:9900;margin:0px 0px 0px -144px;}
+#pagination li { display:block; list-style:none; width:74px; height:4px; float:left; margin-left:17px;}
+#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;text-indent:-9999px;}
+#pagination li.current { }
+
+
+
+
+
+
+/*焦点图*/
+.focus{ position:relative; width:865px; height:310px; background-color: #000; float: left; padding:0px; margin:0px;}  
+.focus img{width:865px; height:310px;} 
+.focus .shadow .title{width: 260px; height: 65px;}
+.focus .shadow .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  
+.focus .fPic{ position:absolute; left:0px; top:0px; }  
+.focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:80px; line-height: 80px; background:rgba(0,0,0,0.6);    
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; }  
+.focus .shadow a{ text-decoration:none; color:#fff; font-size:20px; overflow:hidden; margin-left:10px; font-family: "\5FAE\8F6F\96C5\9ED1";}  
+.focus .fcon{ position:relative; width:100%; float:left;  display:none; background:#000  }  
+.focus .fcon img{ display:block; }  
+.focus .fbg{bottom:15px; right:30px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#e5e9ec; }    
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#1d7cf4;}    
+.focus .D1fBt img{display:none}    
+.focus .D1fBt i{display:none; font-style:normal; }    
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background: url(../images/focus_btn1.png) no-repeat;}
+.focus .prev{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }  
+.focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.focus .prev:hover{  background-position:0 0; }  
+.focus .next:hover{  background-position:-40px 0;}  
+
+
+
+

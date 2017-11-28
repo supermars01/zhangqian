@@ -1,0 +1,157 @@
+.contrast{
+	padding: 60px 0 25px 0;
+}
+.contrast .center{
+	width: 1000px;
+}
+.contrast_main{
+	padding: 30px 5px;
+}
+.contrast_main ul li{
+	float:left;
+	width:234px;
+	margin-left:12px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #ACACAB;
+}
+.contrast_main ul li.margin_right0{
+	margin-right:0px;
+}
+.caption{
+	margin-top: 14px;
+	color: #1F273E;
+	font-size: 12px;
+}
+.caption img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 14px;
+}
+.caption h2{
+	font-weight: 600;
+	font-size: 14px;
+}
+.caption p{
+	line-height: 24px;
+	height: 120px;
+	overflow: hidden;
+}
+.caption a{
+	display: block;
+	width: 95px;
+	margin:15px auto;
+	background: #FF884D;
+	color: #fff;
+	font-size: 14px;
+	line-height: 27px;
+	text-align: center;
+	border-radius: 100px;
+}
+.caption a.on{
+	color: #eaeaea;
+	background:#1F2841;
+}
+
+a.contrast_a{
+	width: 240px;margin: 0 auto;
+    line-height: 50px;
+    background: #1F2841;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	border-radius: 90px;					
+}
+
+
+
+
+
+.validate{
+	position: fixed;
+	z-index: 999;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: none;
+}
+.validate_content{
+	position: absolute;
+	width: 600px;
+	height: 388px;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -194px;
+}
+.validate_top{
+	padding-top: 10px;
+	padding-bottom: 9px;
+	background: #FFFFFF;
+	border-bottom:3px solid #2D3956;
+}
+.validate_logo{
+	float: left;
+	padding-left: 25px;
+}
+.close{
+	float: right;
+	padding-right: 25px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/close.png) no-repeat center;
+}
+.validate_bot{
+	padding: 15px 32px 40px;
+}
+.validate_bot p{
+	color: #F50909;
+	font-size: 14px;
+	line-height: 20px;
+}
+.validate_bot small{
+	color: #E21D1D;
+	padding-right: 5px;
+}
+.validate_bot h1{
+	font-weight: 300;
+	color: #1F273E;
+	font-size: 14px;
+	line-height: 60px;
+}
+label{
+	margin-bottom: 30px;
+	float: left;
+	width: 268px;
+	font-size: 12px;
+}
+input[name="title"],input[name="dianhua"]{
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	line-height: 26px;
+	margin-left: 10px;
+}
+input[name="title"]#name:focus,input[name="dianhua"]#phone:focus{
+	border: 1px solid #2C3757;
+	background: none;
+}
+input[type="button"]{
+	border: 0;
+	background: #2D3956;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: #CDB7A2;
+	width: 275px;
+	margin: 0 auto;
+	border-radius: 10px;
+	display: block;
+}
+
+
+
+
+
+
